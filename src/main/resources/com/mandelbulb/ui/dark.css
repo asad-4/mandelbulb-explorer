@@ -1,0 +1,108 @@
+/* Mandelbulb Explorer - dark scientific theme built on Modena's colour derivation. */
+.root {
+    -fx-base: #2a2d33;
+    -fx-background: #1d1f23;
+    -fx-control-inner-background: #24272c;
+    -fx-control-inner-background-alt: #282b31;
+    -fx-accent: #4f8cff;
+    -fx-focus-color: #4f8cff;
+    -fx-faint-focus-color: #4f8cff33;
+    -fx-default-button: #3a6fd8;
+    -fx-selection-bar: #3a6fd8;
+    -fx-selection-bar-non-focused: #34445f;
+    -fx-text-base-color: #dfe3ea;
+    -fx-font-size: 12px;
+}
+
+.viewport {
+    -fx-background-color: #07080b;
+}
+
+.control-panel {
+    -fx-background-color: #1d1f23;
+    -fx-border-color: transparent transparent transparent #33363d;
+}
+
+.control-panel .tab-header-area .tab {
+    -fx-padding: 3 7 3 7;
+}
+
+.settings-panel, .settings-panel > .viewport {
+    -fx-background-color: #1d1f23;
+    -fx-background: #1d1f23;
+}
+
+.panel-content {
+    -fx-padding: 4 2 12 2;
+}
+
+.section {
+    -fx-background-color: #23262b;
+    -fx-background-radius: 6;
+    -fx-border-color: #30343b;
+    -fx-border-radius: 6;
+}
+
+.section-header {
+    -fx-font-weight: bold;
+    -fx-text-fill: #8fb8ff;
+    -fx-font-size: 12.5px;
+    -fx-padding: 0 0 2 0;
+}
+
+.parameter-label {
+    -fx-text-fill: #c4cad4;
+}
+
+.parameter-field {
+    -fx-font-family: "Menlo", "Consolas", monospace;
+    -fx-font-size: 11px;
+}
+
+.parameter-field.invalid {
+    -fx-control-inner-background: #5a2328;
+    -fx-border-color: #ff5a5a;
+}
+
+.hint {
+    -fx-text-fill: #8a92a0;
+    -fx-font-size: 11px;
+}
+
+.readout, .mono, .mono .content {
+    -fx-font-family: "Menlo", "Consolas", monospace;
+    -fx-font-size: 11px;
+    -fx-text-fill: #cfd6e2;
+}
+
+.math {
+    -fx-font-family: "Menlo", "Consolas", monospace;
+    -fx-font-size: 12px;
+    -fx-text-fill: #e8ecf3;
+    -fx-background-color: #181a1e;
+    -fx-background-radius: 4;
+    -fx-padding: 8;
+}
+
+.status-bar {
+    -fx-background-color: #16181b;
+    -fx-border-color: #33363d transparent transparent transparent;
+}
+
+.status-bar .label {
+    -fx-text-fill: #aab2bf;
+    -fx-font-size: 11px;
+}
+
+.tool-bar {
+    -fx-background-color: #202227;
+    -fx-border-color: transparent transparent #33363d transparent;
+}
+
+.slider .track {
+    -fx-background-color: #3a3e46;
+}
+
+.table-view {
+    -fx-font-size: 11px;
+}
